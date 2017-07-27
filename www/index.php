@@ -202,7 +202,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                                 
                                                                 <br><span style="font-size:12px;">
                                                                 <b>Grains of connectivity and minimum planar graph modelling of landscape connectivity using resistance surfaces</b><br>
-                                                                <span style="font-size:9px;">Paul Galpern<sup>1,2,3</sup>, Sam Doctolero, Alex M Chubaty<sup>4,5</sup><br><br>
+                                                                <span style="font-size:9px;">Paul Galpern<sup>1,2,3</sup>, Sam Doctolero<sup>4</sup>, Alex M Chubaty<sup>5,6</sup><br><br>
                                                                 <sup>1</sup>Faculty of Environmental Design (primary), University of Calgary, Calgary, AB, Canada<br>
                                                                 <sup>2</sup>Department of Biological Sciences (adjunct), University of Calgary, Calgary, AB, Canada<br>
                                                                 <sup>3</sup>Email: <a href="mailto:pgalpern@gmail.com">pgalpern@gmail.com</a>, Web: <a href="http://ecologics.ucalgary.ca/">ecologics.ucalgary.ca/</a><br><br>
