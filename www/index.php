@@ -202,23 +202,23 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                                 
                                                                 <br><span style="font-size:12px;">
                                                                 <b>Grains of connectivity and minimum planar graph modelling of landscape connectivity using resistance surfaces</b><br>
-                                                                <span style="font-size:9px;">Paul Galpern<sup>1,2</sup>, Andrew Fall, Micheline Manseau<br>
-                                                                <sup>1</sup>Natural Resources Institute, University of Manitoba, Winnipeg, Manitoba, Canada<br>
-                                                                <sup>2</sup>Email: <a href="mailto:pgalpern@gmail.com">pgalpern@gmail.com</a>, Web: <a href="http://borealscape.ca">borealscape.ca</a><br><br>
+                                                                <span style="font-size:9px;">Paul Galpern<sup>1,2,3</sup>, Sam Doctolero, Alex M Chubaty<sup>4,5</sup><br>
+                                                                <sup>1</sup>Faculty of Environmental Design (primary), University of Calgary, Calgary, AB, Canada<br>
+                                                                <sup>2</sup>Department of Biological Sciences (adjunct), University of Calgary, Calgary, AB, Canada<br>
+                                                                <sup>3</sup>Email: <a href="mailto:pgalpern@gmail.com">pgalpern@gmail.com</a>, Web: <a href="http://ecologics.ucalgary.ca/">ecologics.ucalgary.ca/</a><br><br>
+                                                                <sup>4</sup>Email: <a href="mailto:sam.doctolero@gmail.com">sam.doctolero@gmail.com</a><br><br>
+                                                                <sup>5</sup>Pacific Forestry Centre, Natural Resources Canada, Victoria, BC, Canada<br>
+                                                                <sup>6</sup>Email: <a href="mailto:alexander.chubaty@canada.ca">alexander.chubaty@canada.ca</a>, Web: <a href="https://alexchubaty.com/">alexchubaty.com/</a><br><br>
                                                                 </span>
                                                                 <br>
-                                                                Given a landscape resistance surface, functions in this package create grains of connectivity and minimum planar graph models that can be used to calculate
-                                                                effective distances for landscape connectivity at multiple scales. Distributed with SELES
-                                                                (Spatially Explicit Landscape Event Simulator; Fall and Fall, 2001) software. <i>The package will currently run only on a Windows-based platform.</i>
-                                                                
+                                                                Given a landscape resistance surface, functions in this package create grains of connectivity and minimum planar graph models that can be used to calculate effective distances for landscape connectivity at multiple scales.
                                                                 <br>
                                                                 <br>
-                                                                <span style="color:green; font-size=12pt">grainscape now works correctly with R 2.15.2 and current versions of igraph and raster.  (igraph0 is no longer required)</span>
+                                                                <span style="color:orange; font-size=12pt"><b>Development of this package has moved to GitHub (<a href="https://achubaty.github.io/grainscape">https://achubaty.github.io/grainscape</a>).</b></span>
                                                                 <br>
                                                                 <br>
-                                                                <a href="grainscape.pdf" target="_blank">Manual</a> (PDF)<br>
-                                                                <a href="grainscape_vignette.pdf" target="_blank">Tutorial</a> (PDF)<br><br>
-                                                                <a href="https://r-forge.r-project.org/projects/grainscape/" target="_blank">R-Forge project page</a><br><br>
+                                                                <a href="https://github.com/achubaty/grainscape/" target="_blank">GitHub project page (versions >=0.3.0)</a><br><br>
+                                                                <a href="https://r-forge.r-project.org/projects/grainscape/" target="_blank">R-Forge project page (version 0.3.0)</a><br><br>
                                                                 </span>
                                                                 </td>
                                                         </tr>
@@ -245,15 +245,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                 <tr>
                                                         
                                                         <td width=500><span style="font-size:12px"><br>At the R prompt:<br>
-                                                        <strong><code>install.packages("raster")<br>
-                                                                      install.packages("igraph")<br>
-                                                                      install.packages("rgeos")</code></strong></span><br><br></td>
+                                                        <strong><code>install.packages("devtools")</code></strong></span><br><br></td>
                                                        
                                                 </tr>
                                                 <tr>
-                                                        <td width=500>The first and second lines are required.  <br>
-                                                        The third package is optional. (<code>rgeos</code>
-                                                        is used for optional visualizations.)<br> R will download and install these packages (and dependencies) from the CRAN repository.</td>
+                                                        <td width=500>
+                                                        <b>NOTE:</b>&nbsp;Building packages from source requires the appropriate development libraries for your operating system.<br>
+                                                        See <a href="https://support.rstudio.com/hc/en-us/articles/200486498-Package-Development-Prerequisites>this guide</a> to get started.
+                                                        </td>
                                                 </tr>
                                             
                                         </table>
@@ -275,40 +274,11 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                 <tr>
                                                         
                                                         <td width=500><span style="font-size:12px"><br>At the R prompt:<br>
-                                                        <strong><code>install.packages("grainscape", repos="http://R-Forge.R-project.org")</code></strong><br><br></span></td>
+                                                        <strong><code>devtools::install_github("achubaty/grainscape")</code></strong><br><br></span></td>
                                                        
                                                 </tr>
                                                 <tr>
-                                                        <td width=500>R will download and install grainscape from the R-forge repository.</td>
-                                                </tr>
-                                            
-                                        </table>
-                                </div>
-                        </td>
-                </tr>
-        </table>
-        <br>
-        <br>
-        <table cellspacing="0" class="msmGrid">
-                <tr>
-                        <td class="msmGridContent">
-                                <div class="msmGridUpperPanel">
-                                        <span style="font-size:small;">...If you are using an earlier version of R, or you are not sure...</span>
-                                </div>
-                                <div class="msmGridMiddlePanel">
-                                        <table cellspacing="0" class="msmTable msmTableSeparate">
-                                                
-                                               <tr>
-                                                        
-                                                    <td width=500><span style="font-size:12px"><br>1. Download the grainscape binary (ZIP) package from <a href="http://download.r-forge.r-project.org/bin/windows/contrib/latest/grainscape_0.2.zip">here</a>.<br><br>
-                                                    2. Save it to some location (e.g. <code>c:\users\yourname\downloads\)</code>)<br><br>
-                                                    3. At the R prompt:<br>
-                                                    <strong><code>install.packages("c:/users/yourname/downloads/grainscape_0.2.zip")</code></span><br><br>
-                                                       
-                                                </tr>
-                                                <tr>
-                                                        <td width=500>R will install grainscape using the ZIP file you downloaded.<br>
-                                                        N.B. The version number may change over time.  Please adjust accordingly.</td>
+                                                        <td width=500>This will download additional dependencies and install grainscape.</td>
                                                 </tr>
                                             
                                         </table>
@@ -335,7 +305,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                        
                                                 </tr>
                                                 <tr>
-                                                        <td width=500>Review the manual and the vignette tutorial</td>
+                                                        <td width=500>Review the manual and the vignette tutorials.</td>
                                                 </tr>
                                             
                                         </table>
