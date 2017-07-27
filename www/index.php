@@ -202,7 +202,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                                 
                                                                 <br><span style="font-size:12px;">
                                                                 <b>Grains of connectivity and minimum planar graph modelling of landscape connectivity using resistance surfaces</b><br>
-                                                                <span style="font-size:9px;">Paul Galpern<sup>1,2,3</sup>, Sam Doctolero, Alex M Chubaty<sup>4,5</sup><br>
+                                                                <span style="font-size:9px;">Paul Galpern<sup>1,2,3</sup>, Sam Doctolero, Alex M Chubaty<sup>4,5</sup><br><br>
                                                                 <sup>1</sup>Faculty of Environmental Design (primary), University of Calgary, Calgary, AB, Canada<br>
                                                                 <sup>2</sup>Department of Biological Sciences (adjunct), University of Calgary, Calgary, AB, Canada<br>
                                                                 <sup>3</sup>Email: <a href="mailto:pgalpern@gmail.com">pgalpern@gmail.com</a>, Web: <a href="http://ecologics.ucalgary.ca/">ecologics.ucalgary.ca/</a><br><br>
@@ -214,7 +214,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                                 Given a landscape resistance surface, functions in this package create grains of connectivity and minimum planar graph models that can be used to calculate effective distances for landscape connectivity at multiple scales.
                                                                 <br>
                                                                 <br>
-                                                                <span style="color:orange; font-size=12pt"><b>Development of this package has moved to GitHub (<a href="https://achubaty.github.io/grainscape">https://achubaty.github.io/grainscape</a>).</b></span>
+                                                                <span style="color:indigo; font-size=12pt"><b>Development of this package has moved to GitHub (<a href="https://achubaty.github.io/grainscape">https://achubaty.github.io/grainscape</a>).</b></span>
                                                                 <br>
                                                                 <br>
                                                                 <a href="https://github.com/achubaty/grainscape/" target="_blank">GitHub project page (versions >=0.3.0)</a><br><br>
@@ -251,7 +251,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                 <tr>
                                                         <td width=500>
                                                         <b>NOTE:</b>&nbsp;Building packages from source requires the appropriate development libraries for your operating system.<br>
-                                                        See <a href="https://support.rstudio.com/hc/en-us/articles/200486498-Package-Development-Prerequisites>this guide</a> to get started.
+                                                        See <a href="https://support.rstudio.com/hc/en-us/articles/200486498-Package-Development-Prerequisites">this guide</a> to get started.
                                                         </td>
                                                 </tr>
                                             
